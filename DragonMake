@@ -1,0 +1,42 @@
+---
+name: Garden
+icmd: killall -9 SpringBoard
+
+Garden:
+  type: tweak
+  cflags: -w
+  archs:
+    - arm64
+    - arm64e
+  logos_files:
+    - Garden.xm
+    - ASSWatchdog.xm
+  objc_files:
+    - "GardenClasses/**/*.m"
+  frameworks:
+    - IOKit
+    - UIKit
+    - Foundation
+  libs:
+    - substrate
+    - Cozy
+    - mitsuha
+    - mryipc
+  include:
+    - ../libmitsuha/public
+
+SnapshotServer:
+  type: tweak
+  dir: SnapshotServer
+  files:
+    - AudioSnapshotServer.xm
+
+GardenSpotifyIPC:
+  dir: gardenspotifyipc
+  type: tweak
+  libs:
+    - substrate
+    - mryipc
+  logos_files:
+    - Tweak.xm
+  

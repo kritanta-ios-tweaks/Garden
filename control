@@ -1,0 +1,10 @@
+Package: me.kritanta.garden
+Name: Garden
+Depends: mobilesubstrate, me.kritanta.libcozy, com.muirey03.libmryipc
+Conflicts: com.p2kdev.floatingdockplus13
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Your media player, reimagined. A custom page on the homescreen, with more to come.
+Maintainer: Kritanta
+Author: Kritanta
+Section: Tweaks
