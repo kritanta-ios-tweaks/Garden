@@ -1,3 +1,5 @@
+#include "MSHView.h"
+
 @interface MSHBarView : MSHView
 
 @property (nonatomic, assign) CGFloat barCornerRadius;
