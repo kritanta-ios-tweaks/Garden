@@ -32,7 +32,7 @@ SnapshotServer:
     - AudioSnapshotServer.xm
 
 GardenSpotifyIPC:
-  dir: gardenspotifyipc
+  dir: GardenSpotifyIPC
   type: tweak
   libs:
     - substrate
