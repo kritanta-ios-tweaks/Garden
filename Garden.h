@@ -22,6 +22,11 @@
 
 @end
 
+@interface SBRootFolderView : UIView
+
+@property (nonatomic, retain) UIView *pageControl;
+@property (nonatomic, retain) UIView *dockView;
+@end
 
 
 @interface UIScreen (Private)
