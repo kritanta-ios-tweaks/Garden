@@ -7,7 +7,7 @@
 //
 
 #include "Garden.h"
-
+#include "GardenClasses/Management/GardenManager.h"
 static CGFloat globalCurrentDockAndPageControlOffset;
 
 static BOOL _pfFiveButton = YES;
